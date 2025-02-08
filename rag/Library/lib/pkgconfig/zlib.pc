@@ -1,0 +1,13 @@
+prefix=C:/GITHUB/RAG-Agent-with-DeepSeek/rag/Library
+exec_prefix=C:/GITHUB/RAG-Agent-with-DeepSeek/rag/Library
+libdir=C:/GITHUB/RAG-Agent-with-DeepSeek/rag/Library/lib
+sharedlibdir=C:/GITHUB/RAG-Agent-with-DeepSeek/rag/Library/lib
+includedir=C:/GITHUB/RAG-Agent-with-DeepSeek/rag/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
